@@ -1,0 +1,43 @@
+body{
+    background: black;
+    border: 1px solid white;
+    width: min-content;
+    align-items: center;
+    position: relative; 
+}
+
+.bloque{
+background-color: white;
+position: absolute; 
+top: 50%; 
+left: 50%;
+transform: translate(40%, 1%); 
+padding: 1em;
+}
+
+#headerIcons{ 
+display: flex; 
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+display: flex;
+}
+
+.html{
+font-size: 60px;
+
+}
+
+.puntos{
+display: flex;
+transform: rotate(90deg);
+
+}
+
+#icons{
+font-size: 25px;
+}
+
+
